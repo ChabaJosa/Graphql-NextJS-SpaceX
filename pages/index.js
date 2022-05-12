@@ -32,7 +32,7 @@ export default function Home({ launches }) {
                 key={index}
                 href="https://nextjs.org/docs"
                 // className={styles.card}
-                className={"outline w-3 pa4 ma2"}
+                className={"outline w-3 pa4 ma2 launchItemHover"}
               >
                 <h2>Mission: {item.mission_name}</h2>
                 <p>{item.rocket.rocket_name}</p>

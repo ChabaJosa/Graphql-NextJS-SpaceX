@@ -1,3 +1,24 @@
+/* Animation */
+.launchItemHover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  min-width: 300px;
+}
+
+.launchItemHover:hover {
+  background-color: rgb(252, 77, 158);
+  box-shadow: 0px 15px 20px rgba(252, 77, 158, 0.5);
+  color: #000;
+  transform: translateY(-8px);
+}
+
+
+/* Removes Horizontal Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Default Css */
 html,
 body {
   padding: 0;
@@ -15,7 +36,3 @@ a {
   box-sizing: border-box;
 }
 
-/* Removes Horizontal Scrollbar */
-::-webkit-scrollbar {
-  display: none;
-}
