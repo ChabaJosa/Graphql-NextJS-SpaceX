@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Removes Horizontal Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}

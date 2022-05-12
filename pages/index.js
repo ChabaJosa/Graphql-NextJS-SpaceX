@@ -23,7 +23,7 @@ export default function Home({ launches }) {
         <div
           className={"flex mw8 mr2 ml2 pa16"} // Display Flex, MaxWidth, MarginRight, MarginLeft, PaddingAll
           style={{
-            overflowX: "Scroll", 
+            overflowX: "Scroll",
           }}
         >
           {launches.launchesPast.map((item, index) => {
